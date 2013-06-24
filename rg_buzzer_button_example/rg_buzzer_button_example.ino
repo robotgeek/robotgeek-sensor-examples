@@ -15,8 +15,15 @@
  *    Buzzer: Digital Pin 3
  *    Button 1: Digital Pin 7
  *    Button 2: Digital Pin 3
- *    A full wiring diagram can be found on the RobotGeek Buzzer Page
- *    http://www.trossenrobotics.com/robotgeek-buzzer
+ *    A full wiring diagram should be distributed with this code
+ *    and can be found in the 'rg_buzzer_button_example' folder
+ *    https://github.com/trossenrobotics/robotgeek-sensor-examples/archive/master.zip
+ *
+ *  Product Links
+ *    Pushbutton Board - http://www.trossenrobotics.com/robotGeek-pushbutton
+ *    Buzzer Board - http://www.trossenrobotics.com/robotgeek-buzzer
+ *    Sensor Shield - http://www.trossenrobotics.com/robotgeek-sensor-shield
+ *    3-Pin Sensor Cables - http://www.trossenrobotics.com/robotgeek-3pin-sensor-cable
  *
  **************************************************************************/
   
@@ -67,7 +74,6 @@ void loop(){
     //play third note
     tone(BUZZER, 4500,165);
     delay(200);
-
   } 
   
 
