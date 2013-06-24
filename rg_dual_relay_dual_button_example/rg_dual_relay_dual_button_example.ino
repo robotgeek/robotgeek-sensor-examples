@@ -1,8 +1,9 @@
 /**************************************************************************
  *  This example shows how to control two relays using two pushbuttons.
  *  We will read the input from the button using digitalRead(), and based on that
- *  information we 
- *
+ *  information we will directly set the state of the Relay using digital(write)
+ *  When the button is pressed, it will give a HIGH signal, and the relay will
+ *  then also go HIGH(activated)
  *
  *  Wiring for RobotGeek Sensor Shield & Sensors: 
  *    Pushbutton 1:Digital Pin 7  
