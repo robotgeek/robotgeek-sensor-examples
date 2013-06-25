@@ -65,7 +65,7 @@ void setup() {
 }
 
 void loop(){
-  //use digitalRead to store the current state of the pushbutton in one of the 'buttonState' variables
+  //use analogread to store the current state of the analog sensor
   knobValue = analogRead(KNOB);
   sliderValue = analogRead(SLIDER);
   joystickValue = analogRead(JOYSTICK);
